@@ -5,6 +5,15 @@ import org.springframework.hateoas.ResourceSupport;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * 
+ * @author nbret00
+ * 
+ * Bean/POJO for Product class that has Hateous resource support
+ * Uses @JsonCreator to support Json formatting
+ * 
+ * /
+
 public class Product extends ResourceSupport {
 
     private final String code;
