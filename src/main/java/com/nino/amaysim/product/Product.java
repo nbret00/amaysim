@@ -15,7 +15,7 @@ public class Product extends ResourceSupport {
     private final boolean isPlan;
     private final boolean isUnlimited;
     private final String size;
-    private final String is4G;
+    private final boolean is4G;
     private final boolean isAutoRenew;
     private final String termURL;
     private final String infoURL;
@@ -31,7 +31,7 @@ public class Product extends ResourceSupport {
             @JsonProperty("isPlan") boolean isPlan,
             @JsonProperty("isUnlimited") boolean isUnlimited,
             @JsonProperty("size") String size,
-            @JsonProperty("is4G") String is4G,
+            @JsonProperty("is4G") boolean is4G,
             @JsonProperty("isAutoRenew") boolean isAutoRenew,
             @JsonProperty("termURL") String termURL,
             @JsonProperty("infoURL") String infoURL) {
@@ -47,6 +47,11 @@ public class Product extends ResourceSupport {
         this.isAutoRenew = isAutoRenew;
         this.termURL = termURL;
         this.infoURL = infoURL;
+    }
+    
+    public ProductHeader productHeader(){
+        ProductHeader productH = new ProductHeader(code, name, description, price);
+        return productH;
     }
 
     public String getCode() {
@@ -81,7 +86,7 @@ public class Product extends ResourceSupport {
         return size;
     }
 
-    public String getIs4G() {
+    public boolean getIs4G() {
         return is4G;
     }
 

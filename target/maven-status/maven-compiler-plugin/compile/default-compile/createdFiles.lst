@@ -1,3 +1,4 @@
-com\nino\amaysim\product\Bootstrap.class
-com\nino\amaysim\product\ProductService.class
+com\nino\amaysim\product\ProductHeader.class
 com\nino\amaysim\product\Product.class
+com\nino\amaysim\product\service\ProductService.class
+com\nino\amaysim\Bootstrap.class
