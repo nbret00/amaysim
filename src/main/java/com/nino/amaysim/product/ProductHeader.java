@@ -1,5 +1,11 @@
 package com.nino.amaysim.product;
-
+/**
+ * @Author nbret00
+ * 
+ * A subset of Projuct class for minimal data
+ * 
+ **/
+ 
 import org.springframework.hateoas.ResourceSupport;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
