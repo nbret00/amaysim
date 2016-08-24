@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.nino.amaysim.product.service;
 
 /**
  *
- * @author nbret00
+ * @author nbret0o of product exposing product and products method as a REST service
+ * 
+ * Controller o
  */
 
 import com.nino.amaysim.product.Product;
