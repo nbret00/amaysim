@@ -13,12 +13,12 @@ Expected result:
 
 Note: Taken from my local test, you'll expect different href when accessing the one depoyed in heroku. Returns the first four field of dataset as header.
 
-[
-{"code":"ult_xlarge","name":"Unlimited 8GB","description":"","price":"49.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_xlarge"}]},
-{"code":"ult_medium","name":"Unlimited 2GB","description":"","price":"29.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_medium"}]},
-{"code":"ult_large","name":"Unlimited 5GB","description":"","price":"44.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_large"}]},
-{"code":"ult_small","name":"Unlimited 1GB","description":"","price":"24.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_small"}]}
-]
+<code>
+[{"code":"ult_xlarge","name":"Unlimited 8GB","description":"","price":"49.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_xlarge"}]},{"cod
+e":"ult_medium","name":"Unlimited 2GB","description":"","price":"29.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_medium"}]},{"code":"ul
+t_large","name":"Unlimited 5GB","description":"","price":"44.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_large"}]},{"code":"ult_small"
+,"name":"Unlimited 1GB","description":"","price":"24.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_small"}]}]
+</code>
 
 > curl href":"http://localhost:8080/Products/ult_small
 
