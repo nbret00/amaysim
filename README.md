@@ -2,7 +2,7 @@
 
 END POINTS:
 
-https://nino-in-amaysim.herokuapp.com/Products
+https://nino-in-amaysim.herokuapp.com/Products <BR>
 https://nino-in-amaysim.herokuapp.com/Products/{code}
 
 Access the Rest Service in Curl. This was deployed in Heroku.
