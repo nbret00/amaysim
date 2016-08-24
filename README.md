@@ -20,13 +20,14 @@ t_large","name":"Unlimited 5GB","description":"","price":"44.90","links":[{"rel"
 ,"name":"Unlimited 1GB","description":"","price":"24.90","links":[{"rel":"self","href":"http://localhost:8080/Products/ult_small"}]}]
 </code>
 
-> curl href":"http://localhost:8080/Products/ult_small
+> curl https://nino-in-amaysim.herokuapp.com/Products/ult_small
 
 Expected Output:
 
+<code>
 {"code":"ult_small","name":"Unlimited 1GB","description":"","price":"24.90","expiry":"30","isPlan":true,"isUnlimited":true,"size":"1024","is4G":true,"isAutoRene
 w":true,"termURL":"http://amaysim.com.au/terms-conditions/special-conditions-and-service-description-unlimited-1gb.pdf","infoURL":"","_links":
 {"List All":{"href":"http://localhost:8080/Products"}}
 }
-
+</code>
 
