@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  * Bean/POJO for Product class that has Hateous resource support
  * Uses @JsonCreator to support Json formatting
  * 
- * /
+ */
 
 public class Product extends ResourceSupport {
 
