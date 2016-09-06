@@ -31,3 +31,8 @@ w":true,"termURL":"http://amaysim.com.au/terms-conditions/special-conditions-and
 }
 </code>
 
+Deployment (Heroku):
+Using Spring Boot that embeds tomcat
+start the application through bootstap.java
+Heroku automatically detects java class with main() upon deployment
+
